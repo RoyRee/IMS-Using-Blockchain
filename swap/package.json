@@ -1,0 +1,30 @@
+{
+  "name": "swap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "file-saver": "^2.0.2",
+    "fs-extra": "^7.0.1",
+    "ganache-cli": "^6.3.0",
+    "js-sha3": "^0.8.0",
+    "mocha": "^5.2.0",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.85.0",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.37"
+  }
+}
