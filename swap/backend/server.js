@@ -43,7 +43,7 @@ app.get('/showData',(req,res)=>{
 app.post('/:database/createDatabase',(req,res)=>{
     var database = req.params.database;
     
-    var uri ='mongodb+srv://rahul:qwerty123@demo1-hsuoj.mongodb.net/'+database+'?retryWrites=true&w=majority'
+    var uri ='<Enter Your Uri>'
 
     const client = new MongoClient(uri);
     client.connect(function(err,client){
