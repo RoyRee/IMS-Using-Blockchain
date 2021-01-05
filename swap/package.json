@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "file-saver": "^2.0.2",
     "fs-extra": "^7.0.1",
     "ganache-cli": "^6.3.0",
